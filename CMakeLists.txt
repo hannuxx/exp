@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(Exp
-    SubHandler1.h
-    SubHandler2.h
+    OutsideHandler.h
+    DerivedHandler.h
     BaseHandler.h
     main.cpp)
